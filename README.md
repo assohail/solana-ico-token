@@ -31,11 +31,11 @@ $ spl-token balance [TOKEN_ADD] --url devnet
 Error: spl-token: error while loading shared libraries: libssl.so.1.1: cannot open shared object file: No such file or directory
 
 ```
-*  $ wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1-1ubuntu2.1~18.04.20_amd64.deb 
+$ wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1-1ubuntu2.1~18.04.20_amd64.deb 
 
 
-*  $ sudo dpkg -i libssl1.1_1.1.1-1ubuntu2.1~18.04.20_amd64.deb
+$ sudo dpkg -i libssl1.1_1.1.1-1ubuntu2.1~18.04.20_amd64.deb
 ```
 
-* [Solution Reference](https://github.com/dotnet/sdk/issues/24759)
+-> [Solution Reference](https://github.com/dotnet/sdk/issues/24759)
 
