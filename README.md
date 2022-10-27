@@ -26,8 +26,7 @@ $ spl-token authorize [TOKEN_ADD] mint --disable --url devnet
 $ spl-token burn [TOKEN_ACCOUNT_ADD] 1000 --url devnet
 $ spl-token balance [TOKEN_ADD] --url devnet
 ```
-
-## Having problem libssl-dev 
+## Are you having error? libssl-dev 
 Error: spl-token: error while loading shared libraries: libssl.so.1.1: cannot open shared object file: No such file or directory
 
 ```
